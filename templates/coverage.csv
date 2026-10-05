@@ -1,0 +1,5 @@
+scenario_id,site_ids,journey,requirement_source,priority,test_layer,preconditions,expected_result,owner,ci_lane,status
+PUB-001,ALL,Primary navigation,TBD,P0,browser,Published baseline pages,Required destinations load with correct site identity,TBD,smoke,needs-requirement
+FORM-001,TBD,Valid form submission,TBD,P0,browser-plus-api,Isolated staging record,Exactly one record and success confirmation,TBD,critical,needs-requirement
+AUTH-001,TBD,Denied protected access,TBD,P0,api-plus-browser,Nonprivileged test user,Denied access and no protected payload,TBD,critical,needs-requirement
+PUB-002,TBD,Publish content lifecycle,TBD,P1,author-plus-browser,Isolated test subtree,Version marker visible within agreed delivery deadline,TBD,nightly,needs-requirement
